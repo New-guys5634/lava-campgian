@@ -1,0 +1,40 @@
+##revamp the campaign
+
+add new biomes such as olden ruins/molten biome
+
+[biome_plans]
+
+# molten
+# sand_waits
+# lava_sand
+# olden_ruins
+
+[Sectors_to_change]
+
+[Main]
+
+: abandoned_metal_lab(biome)
+: craters_ruins(biome)
+: lava_ocean(biome)
+: volcanic_base(biome)
+: impact_radius (biome)
+: tiny_islands(biome)
+: hill_base(biome)
+: up_hill_hell(biome)
+: secret_lab((biome))
+: destruction_valley(biome)
+
+[optionally]
+
+: lava_tree_valley(boss)
+: lava_deep_ends(biome)
+: melted_areanas(biome , boss)
+: lava_cross_overs(biome)
+
+## turrets
+
+T1-dammager( range , dammage)
+T1_liquid_launcher( range , //anti_remove//)
+all_turrets_bullet_speed_has_been_loward
+
+## walls
