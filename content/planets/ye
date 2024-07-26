@@ -1,0 +1,11 @@
+  type: NoiseMesh
+  planet: lava-planet
+  seed: 
+  color1:
+  color:2
+  divisions: 5
+  radius: 0.9
+  octaves: 9
+  persistence: 1
+  scl: 0.75
+  mag: 1.25
