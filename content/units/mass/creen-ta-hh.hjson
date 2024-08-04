@@ -1,17 +1,26 @@
 name: creen-ta-hh
-type: mech
-mechLegColor: 1f1f1f
-
-health: 1200
-armor: 1
-hitSize: 12
-controller: SuicideAI
+type: crawl
+flying: false
+health: 800
+armor: 5
 speed: 0.4
-rotateSpeed: 0.2
-accel: 0.15
-mechSideSway: 0.40
+hitSize: 12
+range: 100
+
 outlineColor: 1f1f1f
+drawBody: false
 drawCell: false
+
+controller: HugAI
+omniMovement: false
+crushDamage: 0.2
+rotateSpeed: 3
+segments: 3
+segmentScl: 3
+segmentPhase: 3
+segmentMag: 0.5
+drownTimeMultiplier: 0.3
+
 weapons: [
  {
   type: Weapon
