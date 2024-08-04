@@ -60,8 +60,30 @@ weapons: [
       damage: 21
       despawnSound: explosion
       hitSound: explosion
+     shootEffect: {
+     type: MultiEffect
+        effects: [
+             {
+              type: ParticleEffect
+              particles: 1
+              lifetime: 10
+              length: 0
+              sizeFrom: 0
+              sizeTo: 10
+              speed: 1
+              colorFrom: f1f1f1
+              colorTo: f1f1f1
+              strokeFrom: 1
+              strokeTo: 2
+              interp: pow3Out
+              spin: 0
+              sizeInterp: pow2In
+              region: -b--halo
+             }
+        ]
     }
-  }
+ }
+}
 {
   name: wepon-No4
   
