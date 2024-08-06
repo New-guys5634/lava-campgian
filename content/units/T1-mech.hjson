@@ -16,7 +16,7 @@ outlineColor: 000000
 weapons: [
  {
   type: Weapon
-  name: T1-mech-wepon
+  name: wepon-No3
   
   top: false
   x: 0
