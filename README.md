@@ -1,4 +1,4 @@
-https://github.com/New-guys5634/lava-campgian/tree/main/sprites-override/Ui
+[logo](https://github.com/New-guys5634/lava-campgian/tree/main/sprites-override/Ui)
 
 caverns nightmares is a lava themed mod with something hiding inside the planet.
 
