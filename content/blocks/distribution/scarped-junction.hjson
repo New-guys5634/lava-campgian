@@ -21,3 +21,4 @@ researchCost: [
   scrap/12
 ]
 category: distribution
+alwaysUnlocked: true
