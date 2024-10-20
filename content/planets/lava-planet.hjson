@@ -9,6 +9,10 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: E36956FF
 drawOrbit: true
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
 
 accessible: true
 alwaysUnlocked: true
