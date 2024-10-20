@@ -24,4 +24,7 @@ drillEffect: {
 requirements: [
   copper/30
 ]
-alwaysUnlocked: true
+researchCost: [
+  copper/30
+]
+research: main-core
