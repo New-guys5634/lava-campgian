@@ -24,7 +24,10 @@ sectorSize: 1
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
-	
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
 cloudMesh: {
     type: HexSkyMesh
     planet: lava-planet 
@@ -93,6 +96,7 @@ mesh: [
   mag: 1.4
   }
 ]
+launchCandidates: []
 hiddenItems: [
     "titanium"
     "thorium"
