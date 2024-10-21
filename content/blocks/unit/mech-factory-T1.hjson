@@ -7,7 +7,7 @@ configurable: true
 plans: [
   {
     unit: T1-mech
-    time: 600
+    time: 1800
     requirements: [
       scrap/20
       copper/10
