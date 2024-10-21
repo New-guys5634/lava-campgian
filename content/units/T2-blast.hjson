@@ -45,34 +45,27 @@ recoilTime: 12
 shootCone: 45
 predictTarget: false
 bullet: {
-sprite: -b--mod-triangle
-type: BasicBulletType
-colors: [d16d54, ffa866, ffd280, bd95fc]
-width: 2
-height: 3
-length: 4
-continuous: false
-lifetime: 115.5
-hitEffect: {
-type: ExplosionEffect
-smokes: 5
-smokeRad: 80
-waveRad: 1
-sparks: 2
-sparkRad: 4
-sparkStroke: 2
-sparkLen: 5
-sparkColor: ffd280
-}
-despawnEffect: none
-damage: 45.5
-pierce: false
-pierceBuilding: false
-reflectable: true
-absorbable: true
-}
-}
+   type: BasicBulletType
+   width: 3
+   height: 8
+   
+   damage: 30
+   
+   speed: 6
+   lifetime: 30
+      collidesAir: true
+      collidesGround: true
+      collideTerrain: true
+   trailWidth: 1
+   trailLength: 8
+   frontColor: 463866FF
+   backColor: 473966FF
+   trailColor: 474267FF
+   }
+  }
+
 {
+name: nassa
 x: 3
 y: 4
 mirror: false
@@ -102,6 +95,7 @@ pierceBuilding: true
 }
 }
 {
+name: nassa
 x: -3
 y: 4
 mirror: false
