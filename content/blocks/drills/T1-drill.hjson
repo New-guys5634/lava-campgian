@@ -13,8 +13,8 @@ research: {
     }
   ]
 }
-hardnessDrillMultiplier: 85
-drillTime: 130
+hardnessDrillMultiplier: 120
+drillTime: 90
 hasPower: false
 tier: 1
 shake: 0.5
