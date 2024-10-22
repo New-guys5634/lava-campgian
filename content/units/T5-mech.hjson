@@ -8,7 +8,6 @@ name: T5 mech
 	"faceTarget": true,
 	"armor": 14,
 	"range": 280,
-	"targetAir": true,
 	"rotateSpeed": 1,
 "mechFrontSway": 0.5,
 "mechSideSway": 0.5,
@@ -21,7 +20,6 @@ mechStride: 14
        "rotting"
        "melting"
 	],
-targetAir: true
 weapons: [
 {
 name: T5-wepon
@@ -31,7 +29,7 @@ mirror: true
 shoot: {
 type: ShootPattern
 shots: 6
-shotDelay: 4
+shotDelay: 8
 }
 top: false
 rotate: true
@@ -45,21 +43,24 @@ bullet: {
 type: ArtilleryBulletType
 width: 10
 height: 10
-damage: 40
-splashDamage: 20
-splashDamageRadius: 60
+damage: 55
+splashDamage: 30
+splashDamageRadius: 80
 speed: 4
 lifetime: 120
 frontColor: ff9959
 backColor: eb742a
 status: tarred 
-statusDuration: 60
+statusDuration: 120
 hitShake: 1
+      collidesAir: true
+      collidesGround: true
+      collideTerrain: true
 hitSound: explosionbig
-      "lightning": 8,
+      "lightning": 12,
       "lightningLength": 10,
       "lightningLengthRand": 15,
-      "lightningDamage": 15,
+      "lightningDamage": 25,
 "lightningColor": "ff9959",
 shootEffect:   	{
 	"type": "ParticleEffect",
@@ -70,20 +71,20 @@ shootEffect:   	{
     "sizeInterp": "pow5In",
     "colorFrom": "ffb78a",
     "colorTo": "c26b34",
-    "sizeFrom": 3,
+    "sizeFrom": 7,
     "sizeTo": 0
-    offsetY: 6
+    offsetY: 8
 	},
    "hitEffect": {
     "type": "multiEffect",
     "effects": [
     {
     "type": "WaveEffect",
-    "lifetime": 35,
+    "lifetime": 60,
     "sizeFrom": 0,
-    "sizeTo": 65,
+    "sizeTo": 80,
     "interp": "circleOut",
-    "strokeFrom": 35,
+    "strokeFrom": 20,
     "strokeTo": 0,
     "colorFrom": "ff9959",
     "colorTo": "f77c2f"
@@ -91,7 +92,7 @@ shootEffect:   	{
     	{
 	"type": "ParticleEffect",
     "line": true,
-    "particles": 18,
+    "particles": 20,
     "lifetime": 30,
     "baseLength": 15,
     "length": 60,
@@ -133,3 +134,19 @@ research: {
       fine-iron/1500
 	]
 }
+  "abilities": [
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "weak-drone",
+      "spawnX": -8,
+      "spawnY": -10,
+      "spawnTime": 200
+    },
+    {
+      "type": "UnitSpawnAbility",
+      "unit": "weak-drone",
+      "spawnX": 8,
+      "spawnY": -10,
+      "spawnTime": 200
+    }
+  ],
