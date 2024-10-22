@@ -7,7 +7,7 @@ hasLiquids: false
 hardnessDrillMultiplier: 85
 drillTime: 420
 hasPower: false
-tier: 2
+tier: 1
 shake: 0.5
 itemCapacity: 20
 researchCostMultiplier: .5
