@@ -1,6 +1,6 @@
 localizedName: lava zrogro 
 generator: SerpuloPlanetGenerator
-parent: erekir 
+parent: erekir
 iconColor: fga000
 orbitRadius: 7
 hasAtmosphere: true
@@ -19,7 +19,7 @@ alwaysUnlocked: true
 defaultCore: "main-core"
 sectorSeed: 0
 startSector: 0
-sectorSize: 1
+sectorSize: 3
 
 clearSectorOnLose: true
 allowSectorInvasion: false
