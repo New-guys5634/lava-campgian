@@ -38,6 +38,12 @@ ammoTypes: {
         height: 8
         width: 8
         lifetime: 48
+   frontColor: 4E4E56FF
+   backColor: 7B7B7BFF
+   trailColor: 3D3D3FFF
+ 
+ trailEffect: disperseTrail
+ trailInterval: 3
     }
     nails: {
         damage: 27.5
@@ -45,6 +51,12 @@ ammoTypes: {
         height: 8
         width: 8
         lifetime: 42
+   frontColor: 4E4E56FF
+   backColor: 7B7B7BFF
+   trailColor: 3D3D3FFF
+ 
+ trailEffect: disperseTrail
+ trailInterval: 3
     }
     scrap: {
         damage: 31.5
@@ -52,6 +64,12 @@ ammoTypes: {
         height: 8
         width: 8
          lifetime: 42
+   frontColor: 4E4E56FF
+   backColor: 7B7B7BFF
+   trailColor: 3D3D3FFF
+ 
+ trailEffect: disperseTrail
+ trailInterval: 3
      }
     stone: {
         damage: 21.5
@@ -59,6 +77,15 @@ ammoTypes: {
         height: 7
         width: 8
         lifetime: 42
+   trailWidth: 2
+   trailLength: 8
+
+   frontColor: 4E4E56FF
+   backColor: 7B7B7BFF
+   trailColor: 3D3D3FFF
+ 
+ trailEffect: disperseTrail
+ trailInterval: 3
       }
 }
 requirements: [

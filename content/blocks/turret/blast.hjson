@@ -3,7 +3,7 @@ description: fires barrages of bullets at flying enemies
 type: ItemTurret
 reload: 25
 shootCone: 20
-rotateSpeed: .4
+rotateSpeed: 2
 targetGround: false
 targetAir: true
 range: 260

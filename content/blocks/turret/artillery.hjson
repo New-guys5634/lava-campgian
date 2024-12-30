@@ -24,22 +24,40 @@ shoot: {
 ammoTypes: {
     scrap: {
         damage: 23.5
-        speed: 7
+        speed: 9
         height: 25
         width: 15
         lifetime: 40
         shots: 2
         status: tarred
         statusduration: 9
+   trailWidth: 2
+   trailLength: 8
+
+   frontColor: 4E4E56FF
+   backColor: 7B7B7BFF
+   trailColor: 3D3D3FFF
+ 
+ trailEffect: disperseTrail
+ trailInterval: 3
     }
     nails: {
         damage: 45.5
-        speed: 5.5
+        speed: 9
         height: 26
         width: 16
         lifetime: 40
         status: spore-slowed
         statusduration: 5
+   trailWidth: 2
+   trailLength: 8
+
+   frontColor: 4E4E56FF
+   backColor: 7B7B7BFF
+   trailColor: 3D3D3FFF
+ 
+ trailEffect: disperseTrail
+ trailInterval: 3
     }
 }
 requirements: [

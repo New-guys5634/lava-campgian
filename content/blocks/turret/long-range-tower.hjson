@@ -5,8 +5,8 @@ square: false
 reload: 30
 shootCone: 20
 rotateSpeed: 2
-targetGround: false
-targetAir: true
+targetGround: true
+targetAir: false
 range: 260
 recoil: 3
 shootSound: bolt
