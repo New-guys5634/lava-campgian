@@ -1,126 +1,60 @@
 description: a powerful unit sent from an unknown asteroid to destroy everything
 name: T5 mech
-"outlineColor": "36363c",
-  "type": "mech",
-	"speed": 0.1,
-	"hitSize": 24,
-	"health": 18000,
-	"faceTarget": true,
-	"armor": 14,
-	"range": 280,
-	"rotateSpeed": 1,
-"mechFrontSway": 0.5,
-"mechSideSway": 0.5,
-"mechStepParticles": true,
-      "stepShake": 3,
+outlineColor: 010101
+  type: mech
+	speed: 0.1
+ hitSize: 24
+	health: 18000
+ faceTarget: true
+	armor: 12
+	rotateSpeed: 1
+mechFrontSway: 0.5
+mechSideSway: 0.5
+mechStepParticles: true
+      stepShake: 3
 mechStride: 14
-	"hovering": false,
-	"immunities": [
+	hovering: false
+	immunities: [
 		"freezing"
        "rotting"
        "melting"
-	],
+	]
 weapons: [
 {
 name: T5-wepon
 x: 20
 y: 0
 mirror: true
+shootSound: bolt
+reload: 115
 shoot: {
 type: ShootPattern
 shots: 6
 shotDelay: 8
 }
-top: false
-rotate: true
-reload: 140
-recoil: 5
-shootSound: bolt
-ejectEffect: none
-shake: 2
-cooldownTime: 90
-bullet: {
-type: ArtilleryBulletType
-width: 10
-height: 10
-damage: 55
-splashDamage: 30
-splashDamageRadius: 80
-speed: 4
-lifetime: 120
-frontColor: ff9959
-backColor: eb742a
-status: tarred 
-statusDuration: 120
-hitShake: 1
-      collidesAir: true
-      collidesGround: true
-      collideTerrain: true
-hitSound: explosionbig
-      "lightning": 12,
-      "lightningLength": 10,
-      "lightningLengthRand": 15,
-      "lightningDamage": 25,
-"lightningColor": "ff9959",
-shootEffect:   	{
-	"type": "ParticleEffect",
-    "particles": 10,
-    "length": 15,
-    "lifetime": 20,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "colorFrom": "ffb78a",
-    "colorTo": "c26b34",
-    "sizeFrom": 7,
-    "sizeTo": 0
-    offsetY: 8
-	},
-   "hitEffect": {
-    "type": "multiEffect",
-    "effects": [
-    {
-    "type": "WaveEffect",
-    "lifetime": 60,
-    "sizeFrom": 0,
-    "sizeTo": 80,
-    "interp": "circleOut",
-    "strokeFrom": 20,
-    "strokeTo": 0,
-    "colorFrom": "ff9959",
-    "colorTo": "f77c2f"
-    },
-    	{
-	"type": "ParticleEffect",
-    "line": true,
-    "particles": 20,
-    "lifetime": 30,
-    "baseLength": 15,
-    "length": 60,
-    "lenFrom": 8,
-    "lenTo": 3,
-    strokeFrom: 5
-    strokeTo: 0
-    "lightColor": "agafag",
-    "colorFrom": "202a1g",
-    "colorTo": "ffc2gf"
-	},
-  	{
-	"type": "ParticleEffect",
-    "particles": 14,
-    "length": 80,
-    "lifetime": 70,
-    "interp": "circleOut",
-    "sizeInterp": "pow5In",
-    "colorFrom": "ffb78a",
-    "colorTo": "f77c2f",
-    "sizeFrom": 8,
-    "sizeTo": 0
-	},
-    ]
-   }
-    trailChance: 0.5
-    trailLength: 7
-    trailWidth: 5
+  bullet: {
+chargeEffect: [
+{
+lifetime: 60
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+   type: BasicBulletType
+   width: 12
+   height: 10
+   damage: 215
+   speed: 8
+   lifetime: 45
+   trailWidth: 7
+   trailLength: 18
+   pierce: true
+   pierceBuilding: true
 }
 }
 ]
