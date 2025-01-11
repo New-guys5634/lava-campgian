@@ -1,21 +1,21 @@
      name: weak drone
      description: a weak unit that has been fighting for years
-    "type": "flying",
-    "lowAltitude": true,
-    "speed": 4,
-    "accel": 0.05,
-    "drag": 0.03,
-    "flying": true,
-    "health": 80,
-    "hitSize": 6,
-    "armor": 1,
-    "itemCapacity": 4,
-  "outlineColor": "36363c",
-    "engineOffset": 6.0,
-    "faceTarget": true,
+    type: "lflying
+    lowAltitude: true
+    speed: 4
+    accel: 0.05
+    drag: 0.03
+    flying: true
+    health: 80
+    hitSize: 6
+    armor: 1
+    itemCapacity: 4
+  outlineColor: 010101
+    engineOffset: 6.0
+    faceTarget: true
 weapons: [
   {
-    name: wepon-No1
+    name: weak-drone-wepon
     alternate: true
     x: 4
     y: 0
