@@ -27,24 +27,17 @@ y: 0
 mirror: true
 shootSound: bolt
 reload: 115
+  rotate: true
+  shootCone: 10
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
 shoot: {
 type: ShootPattern
 shots: 6
 shotDelay: 8
 }
   bullet: {
-chargeEffect: [
-{
-lifetime: 60
-type: waveEffect
-colorFrom: f1f1f1
-colorTo: 010101
-strokeTo: 3
-strokeFrom: 0
-sizeFrom: 20
-sizeTo: 0
-}
-]
    type: BasicBulletType
    width: 12
    height: 10
