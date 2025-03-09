@@ -1,6 +1,6 @@
      name: weak drone
      description: a weak unit that has been fighting for years
-    type: "lflying
+    type: flying
     lowAltitude: true
     speed: 4
     accel: 0.05
