@@ -7,10 +7,12 @@ description:
 planet description: a hot planet near the sun with waistlands of heated sand/lava sand, due to hot temperatures it's nearly impossible to survive on the outside so your squad decided to drill into the ground to mine and survive but turns out there's two factions that want you gone while list fighting eachother.
 
 
-[black]The chaos is in your hands what will you do with it?...
+[[]ffffff]The chaos is in your hands what will you do with it?...[[]]
+
+the mod will be receiving a rework after rusted dunes is done!
 '''
 author: "beee"
 minGameVersion: 147
 version: "1.0"
-displayName: "Caverns nightmare"
-subtitle: "lava 1 out of 3"
+displayName: "Caverns Nightmare"
+subtitle: "[[]#F2A65EFF]this will be receiving a rework[[]]"
